@@ -1,6 +1,6 @@
 # Cyber News
 
-A live cybersecurity news dashboard.
+A live cybersecurity news website.
 
 ## How
 
