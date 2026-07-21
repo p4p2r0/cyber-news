@@ -1,6 +1,6 @@
 # Cyber News
 
-A live cybersecurity news website.
+A real-time cybersecurity news website.
 
 **[Visit the website](https://p4p2r0.github.io/cyber-news)**
 
