@@ -1,0 +1,82 @@
+body { background: #0F0F12; color: #E0E0E5; font-family: 'Courier New', monospace; font-size: 13px; margin: 0; padding: 20px; }
+
+.window { background: #202025; border: 1px solid #404045; border-radius: 3px; box-shadow: 0 4px 10px rgba(0,0,0,0.5); }
+
+.title-bar { background: #2A4066; color: #FFFFFF; padding: 6px 10px; font-weight: bold; border-bottom: 1px solid #404045; display: flex; justify-content: space-between; }
+
+.status { font-weight: bold; }
+.status.live { color: #4ade80; animation: blink 2s infinite; }
+.status.offline { color: #ef4444; }
+@keyframes blink { 50% { opacity: 0.5; } }
+
+.toolbar {
+    display: flex;
+    align-items: center;
+    gap: 8px;
+    padding: 8px 15px;
+    border-bottom: 1px solid #303035;
+    background: #1A1A1F;
+}
+
+.toolbar-label { color: #707075; font-size: 11px; text-transform: uppercase; letter-spacing: 0.05em; }
+
+#source-select {
+    background: #15151A;
+    color: #E0E0E5;
+    border: 1px solid #303035;
+    font-family: inherit;
+    font-size: 12px;
+    padding: 4px 6px;
+    border-radius: 2px;
+    cursor: pointer;
+}
+#source-select:hover { border-color: #2A4066; }
+#source-select:focus { outline: 1px solid #2A4066; }
+
+.toolbar-sync { margin-left: auto; color: #707075; font-size: 11px; }
+
+.content { padding: 15px; display: flex; flex-direction: column; gap: 15px; }
+
+.section-label {
+    color: #707075;
+    font-size: 11px;
+    text-transform: uppercase;
+    letter-spacing: 0.05em;
+    margin-bottom: 8px;
+}
+
+.pinned-section { border-bottom: 1px solid #303035; padding-bottom: 15px; }
+.pinned-section.hidden { display: none; }
+
+.feed-list { display: flex; flex-direction: column; gap: 10px; }
+
+.news-box {
+    background: #15151A;
+    border: 1px solid #303035;
+    padding: 10px;
+    border-radius: 2px;
+    transition: background 0.1s, border-color 0.1s;
+    display: flex;
+    justify-content: space-between;
+    align-items: flex-start;
+    gap: 10px;
+}
+.news-box:hover { background: #1A2233; border-color: #2A4066; }
+
+.news-main { min-width: 0; }
+.news-title { color: #E0E0E5; text-decoration: none; font-weight: bold; font-size: 14px; display: block; }
+.news-box:hover .news-title { color: #528BFF; }
+.meta { color: #707075; font-size: 11px; margin-top: 5px; }
+
+.pin-btn {
+    background: none;
+    border: none;
+    color: #55555C;
+    font-size: 15px;
+    cursor: pointer;
+    padding: 0 2px;
+    line-height: 1;
+    flex-shrink: 0;
+}
+.pin-btn:hover { color: #E0E0E5; }
+.pin-btn.pinned { color: #FFD75E; }
