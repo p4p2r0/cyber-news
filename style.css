@@ -1,4 +1,6 @@
-body { background: #0F0F12; color: #E0E0E5; font-family: 'Courier New', monospace; font-size: 13px; margin: 0; padding: 20px; }
+@import url('https://fonts.googleapis.com/css2?family=JetBrains+Mono:wght@400;500;600&display=swap');
+
+body { background: #0F0F12; color: #E0E0E5; font-family: 'JetBrains Mono', 'Cascadia Code', Consolas, 'SF Mono', monospace; font-size: 13px; margin: 0; padding: 20px; }
 
 .window { background: #202025; border: 1px solid #404045; border-radius: 3px; box-shadow: 0 4px 10px rgba(0,0,0,0.5); }
 
