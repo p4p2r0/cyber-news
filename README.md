@@ -1,10 +1,14 @@
-# Cyber News
+# cyber-news
 
 A cybersecurity news website.
 
 **[Visit the website](https://p4p2r0.github.io/cyber-news)**
 
-## How
+## Why
+
+Keep track of current vulnerabilities, breaches, and industry activity in one place, without checking several sites individually every day.
+
+## How it works
 
 - **Frontend**: A static page (HTML/CSS/JS) hosted on GitHub Pages, no build step.
 - **Source picker**: Pick one source at a time; the last choice is remembered locally.
@@ -12,10 +16,7 @@ A cybersecurity news website.
 - **Caching**: The Worker caches each response for 3 minutes at Cloudflare's edge, so content updates at most every 3 minutes in exchange for fewer requests to the source and faster repeat visits.
 - **Pinning**: Articles can be pinned to the top of the list, saved in the browser's `localStorage`, so pins persist across visits with no login involved.
 
-## Why
-
-Keep track of current vulnerabilities, breaches, and industry activity in one place, without checking several sites individually every day.
-
 ## License
 
-This project is licensed under the MIT License.
+This project is licensed under the [MIT License](LICENSE).
+
