@@ -1,4 +1,4 @@
-const WORKER_URL = 'cyber-news-api.p4p2r0-b1d.workers.dev';
+const WORKER_URL = 'https://cyber-news-api.p4p2r0-b1d.workers.dev';
 
 const SOURCES = [
     { id: 'thn',      label: 'The Hacker News' },
