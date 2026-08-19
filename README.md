@@ -1,6 +1,6 @@
 # cyber-news
 
-A cybersecurity news website.
+A cybersecurity news website
 
 **[Visit the website](https://p4p2r0.github.io/cyber-news)**
 
